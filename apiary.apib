@@ -1,10 +1,25 @@
 FORMAT: 1A
 
-# array-as-a-service
+# Array As a Service (AaaS
 Notes API is a *short texts saving* service similar to its physical paper presence on your table.
 
-# Group Notes
-Notes related resources of the **Notes API**
+## AaaS API Entry Point [/]
+Gist Fox API entry point.
+
+### Retrieve all Arrays in the Store [GET]
++ Request
+    + Headers
+
+            Authorization: Basic YWRtaW46MTIzNDU2
+         
++ Response 200 (application/json)
+
+        {
+            "keys": [
+                "kwefhiasdjoh"
+            ]
+        }
+
 
 ## Notes Collection [/notes]
 ### List all Notes [GET]
